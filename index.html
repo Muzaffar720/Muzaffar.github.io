@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muzaffar | Data Analyst Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+    body{
+      background-color: black !important;
+    }
+    .magic-hover {
+      transition: all 0.4s ease;
+    }
+    .magic-hover:hover {
+      transform: scale(1.05) rotateZ(1deg);
+      box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    }
+    .animated-gradient {
+      background: linear-gradient(270deg, #111a23, #060b13, #000000);
+      background-size: 600% 600%;
+      animation: GradientMove 8s ease infinite;
+    }
+    @keyframes GradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+    .muzaffar-font {
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+    }
+    
+  </style>
+
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="particles-js"></div>
+  <header class="animated-gradient text-white py-14 shadow-lg">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+      <div class="text-left" data-aos="fade-right">
+        <p style="font-size: 40px; font-family: sans-serif;" class="text-lg text-blue-300">Hello</p>
+        <h1 class="text-5xl md:text-6xl font-family tracking-tight muzaffar-font">I am Muzaffar</h1>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size:38px ;" class="mt-4 text-xl">Data Analyst</p>
+      </div>
+      <div class="mt-8 md:mt-0" data-aos="fade-left">
+        <img src="Muzaffar.jpg" alt="Muzaffar" class="rounded-full w-40 h-40 object-cover border-4 border-white shadow-md" />
+      </div>
+    </div>
+  </header>
+
+  <nav class="bg-gray-800 shadow sticky top-0 z-50 py-3 text-center">
+    <a href="#about" class="mx-4 text-white font-semibold hover:text-blue-400">About</a>
+    <a href="#skills" class="mx-4 text-white font-semibold hover:text-blue-400">Skills</a>
+    <a href="#projects" class="mx-4 text-white font-semibold hover:text-blue-400">Projects</a>
+    <a href="#contact" class="mx-4 text-white font-semibold hover:text-blue-400">Contact</a>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-4 py-20">
+    <section id="about" class="mb-24 text-center max-w-3xl mx-auto" data-aos="fade-up">
+      <h2 class="text-4xl font-bold text-blue-400 mb-6">About Me</h2>
+      <p class="text-lg leading-relaxed">
+       <p class="text-lg leading-relaxed">
+  I'm Muzaffar, Graduated with a Bachelor of Computer Applications from the University of Madras. Passionate data analyst with hands-on experience in Power BI, Python, SQL, and Excel. I specialize in transforming raw data into meaningful insights and interactive dashboards. I am dedicated to solving real-world business problems through data.
+</p>
+
+      </p>
+      <a href="Muzaffar_CV.pdf" target="_blank" class="inline-block mt-6 bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 shadow-lg">Download Resume</a>
+     <!-- Skills Section -->
+       <section id="skills" class="mb-24 text-center max-w-3xl mx-auto" data-aos="fade-up"></section>
+      <div class="mt-12 text-left">
+        <h3 class="text-3xl font-semibold text-blue-400 mb-6">Core Skills</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-300 text-lg">
+          <div>
+            <h4 class="font-semibold text-white mb-3">Programming & Analysis</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Python (Pandas, NumPy)
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> SQL (Querying & Database Management)
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Data Cleaning & Transformation
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold text-white mb-3">Data Visualization</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Power BI
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Matplotlib & Seaborn
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Dashboard Design
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold text-white mb-3">Tools & Techniques</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Excel (Advanced Functions, Pivot Tables)
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Statistical Analysis
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Data Reporting & Presentation
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold text-white mb-3">Soft Skills</h4>
+            <ul class="space-y-2">
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Critical Thinking
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Problem Solving
+              </li>
+              <li class="flex items-center hover:text-blue-400 transition">
+                <span class="mr-3 text-blue-400">✔</span> Effective Communication
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Skills Section -->
+    </section>
+
+    <!-- PROJECT SECTION -->
+<section id="projects" class="bg-black text-white py-10 px-4">
+  <h2 class="text-3xl font-bold mb-8 text-center text-blue-400">My Projects</h2>
+
+  <div class="flex flex-col gap-8 md:flex-row md:justify-center md:items-start">
+
+    <!-- Project 1: Amazon Sales Dashboard -->
+    <div class="bg-gray-900 rounded-2xl p-4 shadow-lg w-full md:w-1/2" data-aos="fade-up">
+      <img src="dashboard_preview.png" alt="Amazon Sales Dashboard" class="rounded-xl mb-4 w-full h-64 object-cover">
+      <h3 class="text-xl font-semibold text-blue-300 mb-2">Amazon Sales Dashboard</h3>
+      <p class="text-sm text-gray-300 mb-3">
+        Power BI dashboard analyzing Amazon sales performance with trends, revenue, and top products.
+      </p>
+      <a href="https://github.com/Muzaffar720/Amazon-dashboard" target="_blank" class="text-blue-400 hover:underline">🔗 View on GitHub</a>
+    </div>
+
+    <!-- Project 2: E-commerce Sales Analysis -->
+    <div class="bg-gray-900 rounded-2xl p-4 shadow-lg w-full md:w-1/2" data-aos="fade-up" data-aos-delay="100">
+      <img src="ecommerce.jpg" alt="E-commerce Sales Analysis" class="rounded-xl mb-4 w-full h-64 object-cover">
+      <h3 class="text-xl font-semibold text-blue-300 mb-2">E-commerce Sales Analysis</h3>
+      <p class="text-sm text-gray-300 mb-3">
+        A Python-powered analytics platform project focused on actionable insights and reporting.
+      </p>
+      <a href="https://github.com/Muzaffar720/Analytics-Platform?tab=readme-ov-file" target="_blank" class="text-blue-400 hover:underline">🔗 View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+ 
+
+    <section id="contact" class="text-center" data-aos="zoom-in">
+  <h2 class="text-4xl font-bold text-blue-400 mb-4">Contact Me</h2>
+  <p>Email: <a href="mailto:amrmuzaffar46@gmail.com" class="text-blue-400 font-semibold">amrmuzaffar46@gmail.com</a></p>
+  <p>Phone: <a href="tel:+917550357720" class="text-blue-400 font-semibold">7550357720</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/muzaffar-muzzu-242b37323" class="text-blue-400 font-semibold" target="_blank">linkedin.com/in/muzaffar-muzammil-242b37323</a></p>
+  <p>Address: Tamil Nadu , India</p>
+
+</section>
+
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center py-5 mt-16">
+    <p>&copy; A Portfolio Design & built by Muzaffar.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+
+  <script>
+    particlesJS.load('particles-js', 'https://cdn.jsdelivr.net/gh/VincentGarreau/particles.js/particles.json');
+  </script>
+  <!-- AOS Library CSS + Script -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+</body>
+</html>
