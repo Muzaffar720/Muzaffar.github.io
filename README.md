@@ -41,7 +41,7 @@ Power BI dashboard that showcases trends, revenue, and top-performing categories
 ### 🔹 Blinkit Analysis Using Python
 An interactive sales analysis dashboard built with Power BI for an e-commerce dataset.
 
-🔗 [GitHub Repo](https://github.com/Muzaffar-Muzzu/ecommerce-sales-analysis)
+🔗 [GitHub Repo](https://github.com/Muzaffar720/Blinkit-Insights)
 
 ---
 
