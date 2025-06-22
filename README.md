@@ -1,7 +1,7 @@
 # 💼 Muzaffar's Personal Portfolio
 
 Welcome to my personal developer portfolio!  
-This is a responsive and interactive portfolio website built with **HTML**, **Tailwind CSS**, and **JavaScript** to showcase my data analytics and web development projects.
+This is a responsive and interactive portfolio website built with **HTML**, **Tailwind CSS**, and **JavaScript** to showcase my data analytics projects.
 
 🌐 **Live Website**: [muzaffar720.github.io/Muzaffar.github.io](https://muzaffar720.github.io/Muzaffar.github.io/)
 
@@ -12,7 +12,7 @@ This is a responsive and interactive portfolio website built with **HTML**, **Ta
 This portfolio highlights:
 
 - 🎯 My professional summary and skills
-- 📊 Real-world data analytics projects (Amazon Sales, E-commerce Dashboard)
+- 📊 Real-world data analytics projects (Amazon Sales, Blinkit Analysis)
 - 🛠️ Technical tools: Python, SQL, Power BI, Excel
 - 🌍 Social links (LinkedIn, GitHub, Email)
 - 📱 Fully responsive design for mobile & desktop
@@ -38,7 +38,7 @@ Power BI dashboard that showcases trends, revenue, and top-performing categories
 
 ---
 
-### 🔹 E-commerce Sales Dashboard
+### 🔹 Blinkit Analysis Using Python
 An interactive sales analysis dashboard built with Power BI for an e-commerce dataset.
 
 🔗 [GitHub Repo](https://github.com/Muzaffar-Muzzu/ecommerce-sales-analysis)
