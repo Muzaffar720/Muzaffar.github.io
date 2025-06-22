@@ -34,7 +34,7 @@ This portfolio highlights:
 ### 🔹 Amazon Sales Analysis
 Power BI dashboard that showcases trends, revenue, and top-performing categories.
 
-🔗 [GitHub Repo](https://github.com/Muzaffar-Muzzu/amazon-sales-analysis)
+🔗 [GitHub Repo]([https://github.com/Muzaffar-Muzzu/amazon-sales-analysis](https://github.com/Muzaffar720/Amazon-dashboard))
 
 ---
 
